@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.test.espresso:espresso-core:3.4.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8d4775ee58ba1ed7d5fc9d2407de63e6/transformed/espresso-core-3.4.0/res" />
+      <root url="file://$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/8d4775ee58ba1ed7d5fc9d2407de63e6/transformed/espresso-core-3.4.0/res" />
+      <root url="file://$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/b4d0712d8d54f8411bac95a89fcd9450/transformed/espresso-core-3.4.0/res" />
+      <root url="jar://$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/07a3af1c692f12629987184d648ac800/transformed/espresso-core-3.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/07a3af1c692f12629987184d648ac800/transformed/espresso-core-3.4.0/res" />
+      <root url="file://$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/07a3af1c692f12629987184d648ac800/transformed/espresso-core-3.4.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/Downloads/Capstone-master/caches/modules-2/files-2.1/androidx.test.espresso/espresso-core/3.4.0/527848e2722cd3ada150b991c0e620ec4f0a8b/espresso-core-3.4.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/Capstone-master/caches/modules-2/files-2.1/androidx.test.espresso/espresso-core/3.4.0/8c2dc35c200b749281e0fbdc1262359e19a99cc3/espresso-core-3.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

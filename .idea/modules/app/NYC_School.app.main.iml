@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":app:main" external.linked.project.path="$MODULE_DIR$/../../../app" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.type="sourceSet" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="5" platform="JVM 1.8" allPlatforms="JVM [1.8]" useProjectSettings="false">
+        <compilerSettings>
+          <option name="additionalArguments" value="-Xallow-no-source-files" />
+        </compilerSettings>
+        <compilerArguments>
+          <flagArguments>
+            <flagArg name="noReflect" arg="true" />
+            <flagArg name="noStdlib" arg="true" />
+          </flagArguments>
+          <stringArguments>
+            <stringArg name="classpath">
+              <args>
+                <arg>$MODULE_DIR$/../../../app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/93eee9dc655215cdd9cedde04346ecb5/transformed/jetified-viewbinding-7.2.1-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/9120476e9d5b68bd45b70e8258a64a23/transformed/jetified-logging-interceptor-5.0.0-alpha.3.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/3a96b6d7e689be95c8ff80727f7f4768/transformed/jetified-lifecycle-viewmodel-compose-2.5.0-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/2f95aec906223008944ca32b922ae834/transformed/navigation-fragment-2.5.0-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/b17b84da20e92350017ed021aedfa297/transformed/jetified-fragment-ktx-1.5.0-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/bf59f0eb8d353cc157accc3cf745ee39/transformed/navigation-ui-2.5.0-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/98cb0a67eec0d5faf272234159956282/transformed/navigation-runtime-2.5.0-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/f67dbc7ce2b954d2d386359796a1675a/transformed/jetified-paging-runtime-ktx-3.1.0-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/6d2ef6def126a71a0e1003dee6df207e/transformed/paging-runtime-3.1.0-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/e6904f8363456079c26da36c18a46c4f/transformed/jetified-activity-ktx-1.5.0-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/992daf21a18cd4507ab65f231ca11075/transformed/navigation-common-2.5.0-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/d8381d0aa86eeb99cd3cd23a386d65c2/transformed/jetified-lifecycle-viewmodel-ktx-2.5.0-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/3d4c76f124db4d40bd181c6e2442ed03/transformed/jetified-lifecycle-runtime-ktx-2.5.0-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/7ef6159cc59c567eeae9b0b7de344417/transformed/jetified-hilt-lifecycle-viewmodel-1.0.0-alpha03-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/3781085cb3e41fecb5fdd22ff2d4084e/transformed/jetified-hilt-android-2.40.5-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/ecc16e936504ba8a00fb1bd51ab15357/transformed/material-1.6.1-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/ec0289e0cc1c645c34ea4b734d17ea88/transformed/appcompat-1.4.2-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/9f0456d1d0039ec6c7c305f9ddb6a7e7/transformed/jetified-viewpager2-1.0.0-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/3b49e5321fb1eaed22049a0952bd5f50/transformed/fragment-1.5.0-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/7609d7828ca86b206bd7aacb2f2c234f/transformed/jetified-activity-1.5.0-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/acfcc9245554b5d4dba2f4d7da85833d/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.0-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/519785b2b975a1c059a39177681f0b56/transformed/jetified-lifecycle-livedata-ktx-2.5.0-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/786ed08ddb6c8df6e48c00a27fe553fc/transformed/jetified-paging-common-ktx-3.1.0.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/modules-2/files-2.1/androidx.paging/paging-common/3.1.0/9fb18b7e6bad80a45749e12c6e5754899b76cf03/paging-common-3.1.0.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/1622ed8ff5e04d62c05d1882e8b9ece3/transformed/jetified-kotlinx-coroutines-core-jvm-1.6.1.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/99220f0af468f848adf42936c886a65c/transformed/jetified-ui-1.0.1-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/7a9fb82cf3aca38e25eff9051d32dfbe/transformed/jetified-runtime-saveable-1.0.1-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/784b328a4ac1efbb7c8924a34ccb0d41/transformed/jetified-runtime-1.0.1-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/0f403673f0ed64607f37098a3036d29e/transformed/jetified-kotlinx-coroutines-android-1.6.1.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/5b5ae0b7582294ac3c57e082fac88dbc/transformed/jetified-converter-gson-2.9.0.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/69bed8c4f885fcb80f423c75587deec7/transformed/jetified-retrofit-2.9.0.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/447bc4b6be4acd8f76e410ecb265ea27/transformed/jetified-okhttp-5.0.0-alpha.3.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/b7cb8321e3436d94742b64e75a6a0a12/transformed/jetified-okio-jvm-3.0.0.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/a866352f38d68828bdb8be188036112c/transformed/jetified-kotlin-stdlib-jdk8-1.7.10.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/06e8d7f16827b0b6a68f8287798801f2/transformed/jetified-appcompat-resources-1.4.2-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/a7aadb6823a4bbe80e81a4aba01dca4a/transformed/drawerlayout-1.1.1-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/d7bac60670ab565263ac51bcd94e0a5f/transformed/coordinatorlayout-1.1.0-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/90f29e219cfddbf9ccab765ee51aae9f/transformed/dynamicanimation-1.0.0-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/c3803d065e6da60963375ec420a1288b/transformed/recyclerview-1.2.0-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/d573454d29b170521cc79d2c16fd8f1d/transformed/transition-1.4.1-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/ec0c435e1db931508f677fb2e41443fd/transformed/vectordrawable-animated-1.1.0-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/bc28bc2aab505fce075214588a1bf06d/transformed/vectordrawable-1.1.0-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/373aceeb5469b16b7e9b550902d1e44c/transformed/slidingpanelayout-1.2.0-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/a986f4f249a611e1e788da447fdac483/transformed/viewpager-1.0.0-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/383d5ba507fdb2463a8457c7481004cc/transformed/customview-1.1.0-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/5606e0ba6fa3cf1893e61cc80ad2798d/transformed/jetified-core-ktx-1.2.0-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/317a29cf05dc24c4332625649cd1e0a3/transformed/legacy-support-core-utils-1.0.0-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/97786827f1f4367b5e5e7c066609fe40/transformed/loader-1.0.0-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/48b0b117066ee2854b2c238d6df726d5/transformed/core-1.8.0-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/3c6e431d6bac8cd05d17d6de45eb7350/transformed/cursoradapter-1.0.0-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/1c3d05fe2b2a44eeec0bfea02164aaa0/transformed/jetified-savedstate-ktx-1.2.0-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/23b7ba13e7779f9a342c86d92bc19942/transformed/jetified-savedstate-1.2.0-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/d2f223b6d92d8e1b2e02ab1e1500a372/transformed/cardview-1.0.0-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/2d5882beb6094b48823677c5775aa1b9/transformed/lifecycle-runtime-2.5.0-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/d2f3a95715d43fb550722ec88babdb80/transformed/lifecycle-viewmodel-2.5.0-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common-java8/2.5.0/5b8f86fea035328fc9e8c660773037a3401ce25f/lifecycle-common-java8-2.5.0.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/3a109cd79a68a3f248c673bf97816ff5/transformed/lifecycle-livedata-2.5.0-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/8f946f99cc7f726385688f5bd5156515/transformed/jetified-lifecycle-livedata-core-ktx-2.5.0-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/f79d59d16354fd8a2dae2f0b2ddc138f/transformed/lifecycle-livedata-core-2.5.0-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.5.0/1fdb7349701e9cf2f0a69fc10642b6fef6bb3e12/lifecycle-common-2.5.0.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/efb8917f0b36e8c9db2fc7ec94374d39/transformed/versionedparcelable-1.1.1-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/d536d6f68c3b55ee1b1aebf218fb4254/transformed/jetified-collection-ktx-1.1.0.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/f5336f2be6dfd5f1d4712bbab3816393/transformed/core-runtime-2.1.0-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/2cf78f8cc38cc5dfc51931146c980ebe/transformed/jetified-ui-text-1.0.1-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/5437242e5b88e5fd5b8f843fa9fc5101/transformed/jetified-ui-graphics-1.0.1-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/d6506028f50b789ec5aa0a8913d2ddd8/transformed/jetified-ui-unit-1.0.1-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/2507aa0147aee3f74042eadf23a261fd/transformed/jetified-ui-geometry-1.0.1-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/f2f8b71056670b978566f08df371d935/transformed/interpolator-1.0.0-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/68a38978eb81414f411572ced5c7067e/transformed/documentfile-1.0.0-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/77d17307856761b205c84f8c699639b6/transformed/localbroadcastmanager-1.0.0-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/2f013b18515a1abb513da6ef6b2ab365/transformed/print-1.0.0-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/modules-2/files-2.1/androidx.annotation/annotation/1.3.0/21f49f5f9b85fc49de712539f79123119740595/annotation-1.3.0.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/cd3b2cf0ab839599386e524dd2907085/transformed/jetified-kotlin-stdlib-jdk7-1.7.10.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/76cd00803925277c847a49639d004823/transformed/jetified-kotlin-stdlib-1.7.10.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/fa249788c7178c10abfcb5e4af36c104/transformed/jetified-kotlin-stdlib-common-1.7.10.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/2b759f5c46c9f4abb1bb75eb109420c4/transformed/jetified-annotations-13.0.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/3c55b51cbd6da29ec922661b69f1ebdd/transformed/jetified-annotation-experimental-1.1.0-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/60d71d4146828d79926b01b9d7237683/transformed/constraintlayout-2.1.4-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/a647174513c9e78ab2f6db39a894403b/transformed/jetified-gson-2.8.5.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/7e18e4fcded9ca0a098a9a78d934db4b/transformed/jetified-hilt-core-2.40.5.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/bf3cad9fdd4b90e2211fbc74cfc4399f/transformed/jetified-dagger-2.40.5.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/c8368ac19ee0b52297ca5bec3c0f48ea/transformed/jetified-javax.inject-1.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/d025dd73dac390c7d904049a174a6eb2/transformed/jetified-dagger-lint-aar-2.40.5-api.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/19deb917c249138cc3b0a0518afb800f/transformed/jetified-jsr305-3.0.2.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/cb4c13d04b6fb8ec095401d832b3e23e/transformed/jetified-hilt-common-1.0.0-alpha03.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/68918fe6b3e1207c45b0d930e0fab61d/transformed/jetified-sdp-android-1.0.6-api.jar</arg>
+                <arg>$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-31/android.jar</arg>
+                <arg>$USER_HOME$/AppData/Local/Android/Sdk/build-tools/30.0.3/core-lambda-stubs.jar</arg>
+              </args>
+            </stringArg>
+            <stringArg name="destination" arg="$MODULE_DIR$/../../../app/build/tmp/kotlin-classes/debug" />
+            <stringArg name="jvmTarget" arg="1.8" />
+            <stringArg name="moduleName" arg="app_debug" />
+            <stringArg name="apiVersion" arg="1.7" />
+            <stringArg name="languageVersion" arg="1.7" />
+          </stringArguments>
+          <arrayArguments>
+            <arrayArg name="pluginClasspaths">
+              <args>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/1.7.10/909803167c98606fcf22b4c848647c68e351d48d/kotlin-compiler-embeddable-1.7.10.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.7.10/165e600dfea6185cf5efa700756294cc4904dbeb/kotlin-reflect-1.7.10.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.7.10/d2abf9e77736acc4450dc4a3f707fa2c10f5099d/kotlin-stdlib-1.7.10.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.7.10/bac80c520d0a9e3f3673bc2658c6ed02ef45a76a/kotlin-stdlib-common-1.7.10.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.7.10/c99c87a6988d8fd8d5142e9ed5c9f34a7cf561ee/kotlin-script-runtime-1.7.10.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-daemon-embeddable/1.7.10/3a9f7aef7080d3ae63126cbba4f827ed664f32fa/kotlin-daemon-embeddable-1.7.10.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/modules-2/files-2.1/org.jetbrains.intellij.deps/trove4j/1.0.20200330/3afb14d5f9ceb459d724e907a21145e8ff394f02/trove4j-1.0.20200330.jar</arg>
+                <arg>$USER_HOME$/Downloads/Capstone-master/caches/modules-2/files-2.1/net.java.dev.jna/jna/5.6.0/330f2244e9030119ab3030fc3fededc86713d9cc/jna-5.6.0.jar</arg>
+              </args>
+            </arrayArg>
+            <arrayArg name="pluginOptions" />
+          </arrayArguments>
+        </compilerArguments>
+      </configuration>
+    </facet>
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="debug" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleDebug" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileDebugSources" />
+        <afterSyncTasks>
+          <task>generateDebugSources</task>
+        </afterSyncTasks>
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../app/src/main/res;file://$MODULE_DIR$/../../../app/src/debug/res;file://$MODULE_DIR$/../../../app/build/generated/res/rs/debug;file://$MODULE_DIR$/../../../app/build/generated/res/resValues/debug" />
+        <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../app/src/androidTest/res;file://$MODULE_DIR$/../../../app/src/androidTestDebug/res;file://$MODULE_DIR$/../../../app/build/generated/res/rs/androidTest/debug;file://$MODULE_DIR$/../../../app/build/generated/res/resValues/androidTest/debug" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../app/build/generated/aidl_source_output_dir/debug/out" />
+    <content url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/debug/out">
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/debug/out" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../app/build/generated/renderscript_source_output_dir/debug/out" />
+    <content url="file://$MODULE_DIR$/../../../app/build/generated/res/resValues/debug">
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/res/resValues/debug" type="java-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../app/build/generated/res/rs/debug" />
+    <content url="file://$MODULE_DIR$/../../../app/build/generated/source/buildConfig/debug">
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../app/build/generated/source/kapt/debug">
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/kapt/debug" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../app/build/generated/source/kaptKotlin/debug">
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/kaptKotlin/debug" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../app/src/debug" />
+    <content url="file://$MODULE_DIR$/../../../app/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/main/res" type="java-resource" />
+    </content>
+    <orderEntry type="jdk" jdkName="Android API 31 Platform" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: androidx.annotation:annotation:1.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.7.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.7.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.10" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.arch.core:core-common:2.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-common:2.5.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.collection:collection:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.1" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.collection:collection-ktx:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.retrofit2:retrofit:2.9.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okhttp3:okhttp:5.0.0-alpha.3" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okio:okio-jvm:3.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.retrofit2:converter-gson:2.9.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.8.5" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.3" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.dagger:dagger:2.40.5" level="project" />
+    <orderEntry type="library" name="Gradle: javax.inject:javax.inject:1" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.dagger:hilt-core:2.40.5" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.hilt:hilt-common:1.0.0-alpha03" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.paging:paging-common:3.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.paging:paging-common-ktx:3.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-common-java8:2.5.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.databinding:viewbinding:7.2.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.appcompat:appcompat:1.4.2@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.core:core:1.8.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.annotation:annotation-experimental:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-runtime:2.5.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.versionedparcelable:versionedparcelable:1.1.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.cursoradapter:cursoradapter:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.activity:activity:1.5.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-viewmodel:2.5.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.core:core-ktx:1.2.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-livedata-core:2.5.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.savedstate:savedstate:1.2.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.fragment:fragment:1.5.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.loader:loader:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-livedata:2.5.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.arch.core:core-runtime:2.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.viewpager:viewpager:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.customview:customview:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.appcompat:appcompat-resources:1.4.2@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.vectordrawable:vectordrawable:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.vectordrawable:vectordrawable-animated:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.interpolator:interpolator:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.drawerlayout:drawerlayout:1.1.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.material:material:1.6.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.cardview:cardview:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.coordinatorlayout:coordinatorlayout:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.constraintlayout:constraintlayout:2.1.4@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.dynamicanimation:dynamicanimation:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.legacy:legacy-support-core-utils:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.documentfile:documentfile:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.localbroadcastmanager:localbroadcastmanager:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.print:print:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.recyclerview:recyclerview:1.2.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.transition:transition:1.4.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.viewpager2:viewpager2:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-livedata-ktx:2.5.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.navigation:navigation-fragment:2.5.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.fragment:fragment-ktx:1.5.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.activity:activity-ktx:1.5.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-runtime-ktx:2.5.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.savedstate:savedstate-ktx:1.2.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.navigation:navigation-runtime:2.5.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.navigation:navigation-common:2.5.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.slidingpanelayout:slidingpanelayout:1.2.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.navigation:navigation-ui:2.5.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.dagger:hilt-android:2.40.5@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.dagger:dagger-lint-aar:2.40.5@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.intuit.sdp:sdp-android:1.0.6@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.paging:paging-runtime-ktx:3.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.paging:paging-runtime:3.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-viewmodel-compose:2.5.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.compose.runtime:runtime:1.0.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.compose.ui:ui:1.0.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.compose.runtime:runtime-saveable:1.0.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.compose.ui:ui-geometry:1.0.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.compose.ui:ui-graphics:1.0.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.compose.ui:ui-unit:1.0.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.compose.ui:ui-text:1.0.1@aar" level="project" />
+  </component>
+</module>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.dagger:dagger-lint-aar:2.40.5@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/fdae6e777958cfa11749f9f51aa10b58/transformed/jetified-dagger-lint-aar-2.40.5/res" />
+      <root url="file://$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/3b0021c9f2b9308c5b062c3364ac5617/transformed/jetified-dagger-lint-aar-2.40.5/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/3b0021c9f2b9308c5b062c3364ac5617/transformed/jetified-dagger-lint-aar-2.40.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Downloads/Capstone-master/caches/transforms-3/3b0021c9f2b9308c5b062c3364ac5617/transformed/jetified-dagger-lint-aar-2.40.5/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

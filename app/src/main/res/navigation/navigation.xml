@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/schoolListFragment">
+
+    <fragment
+        android:id="@+id/schoolListFragment"
+        android:name="com.example.nycschool.presentation.SchoolListFragment"
+        android:label="fragment_school_list"
+        tools:layout="@layout/fragment_school_list">
+        <action
+            android:id="@+id/action_schoolListFragment_to_schoolSATResultFragment"
+            app:destination="@id/schoolSATResultFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/schoolSATResultFragment"
+        android:name="com.example.nycschool.presentation.SchoolSATResultFragment"
+        android:label="fragment_school_s_a_t_result"
+        tools:layout="@layout/fragment_school_s_a_t_result" >
+        <action
+            android:id="@+id/action_schoolSATResultFragment_to_schoolListFragment"
+            app:destination="@id/schoolListFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popUpTo="@id/navigation"
+            app:popUpToInclusive="true" />
+        <argument
+            android:name="dbnID"
+            app:argType="string" />
+    </fragment>
+</navigation>

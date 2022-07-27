@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.SchoolSATResultFragment"
+    android:background="@drawable/background_gradient">
+
+    <ProgressBar
+        android:id="@+id/progress_loader"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="20dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/schoolName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_title"
+            android:textStyle="italic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/noOfSatTaken"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/number_of_sat_takers"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_view_normal"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/schoolName" />
+
+        <TextView
+            android:id="@+id/noOfSatTakenNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_start"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_view_normal"
+            app:layout_constraintBottom_toBottomOf="@id/noOfSatTaken"
+            app:layout_constraintStart_toEndOf="@id/noOfSatTaken"
+            app:layout_constraintTop_toTopOf="@id/noOfSatTaken" />
+
+        <TextView
+            android:id="@+id/readingAvgScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/sat_reading_avg_score"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_view_normal"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/noOfSatTaken" />
+
+        <TextView
+            android:id="@+id/readingAvgScoreNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_view_normal"
+            app:layout_constraintBottom_toBottomOf="@id/readingAvgScore"
+            app:layout_constraintStart_toEndOf="@id/readingAvgScore"
+            app:layout_constraintTop_toTopOf="@id/readingAvgScore" />
+
+        <TextView
+            android:id="@+id/satMathAvgScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/sat_math_avg_score"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_view_normal"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/readingAvgScore" />
+
+        <TextView
+            android:id="@+id/satMathAvgScoreNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_view_normal"
+            app:layout_constraintBottom_toBottomOf="@id/satMathAvgScore"
+            app:layout_constraintStart_toEndOf="@id/satMathAvgScore"
+            app:layout_constraintTop_toTopOf="@id/satMathAvgScore" />
+
+        <TextView
+            android:id="@+id/satWritingAvgScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/sat_writing_avg_score"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_view_normal"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/satMathAvgScore" />
+
+        <TextView
+            android:id="@+id/satWritingAvgScoreNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_view_normal"
+            app:layout_constraintBottom_toBottomOf="@id/satWritingAvgScore"
+            app:layout_constraintStart_toEndOf="@id/satWritingAvgScore"
+            app:layout_constraintTop_toTopOf="@id/satWritingAvgScore" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
